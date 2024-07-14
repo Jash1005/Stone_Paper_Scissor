@@ -1,0 +1,161 @@
+body {
+    font-family: 'Poppins';
+    background-color: #192446;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    border: 1px solid white;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+    height: fit-content;
+}
+
+.player2_score,.player1_score {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    width: 130px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.player1_score {
+    margin-left: 60px;
+}
+
+.player1_name,.player2_name {
+    color: #6B7FD3;
+    font-weight: 500;
+    font-size: 22px;
+}
+.score {
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.spc_style {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    padding: 0;
+    gap: 0px;
+}
+
+.spc_style div {
+    font-size: 20px;
+    font-family: 'Arsenal Sc';
+    font-weight: 400;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.choose_ur_option {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap:50px;
+}
+
+.choice {
+    width: 100px;
+    height: fit-content;
+    font-size: larger;
+    font-weight: 500;
+    padding: 4px;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.choice.highlighted {
+    transform: scale(0.95); /* Slightly smaller */
+}
+
+
+#stone {
+    background-color:  lightgreen;
+}
+
+#paper {
+    background-color: #F1BAF5;
+}
+
+#scissor {
+    background-color: #E9CE5B;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    gap : 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.computer,.user {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 50%;
+}
+
+.reset-container {
+    display: flex;
+    width: 100%; 
+    justify-content: center;
+    align-items: center;  
+    margin-top: 10px;
+}
+
+.reset {
+    width: 100px;
+    height: fit-content;
+    font-size: larger;
+    font-weight: 700;
+    padding: 4px;
+    border: 2px solid;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color:tomato;
+    color:#ffffff;
+}

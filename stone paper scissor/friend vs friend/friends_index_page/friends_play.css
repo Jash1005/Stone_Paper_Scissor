@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins';
+    background-color: #192446;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    margin-top: 200px;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    height: fit-content;
+}
+
+.your_name {
+    width: fit-content;
+    padding: 10px;
+    height: fit-content;
+}
+
+section input {
+    width: 100%;
+    height: auto;
+    padding: 6px;
+    font-size: medium;
+}
+
+.play-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    display: flex;
+    background-color: #FFCC33;
+    color: red;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 10px;
+    width:100px;
+    justify-content: center;
+    padding: 5px;
+    margin-top: -60px;
+}
